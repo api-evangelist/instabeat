@@ -1,7 +1,15 @@
 aid: instabeat
 name: Instabeat
-description: Instabeat is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Instabeat is a San Francisco based swimming technology company that builds
+  a heart-rate monitoring device integrated directly into swim goggles, giving swimmers
+  real-time, color-coded effort feedback (heart-rate zones), automatic stroke detection,
+  lap counting, pace, distance and rest-interval tracking without a chest strap or
+  wrist watch. Paired with the Instabeat mobile app and myinstabeat.com, it delivers
+  data-driven training insights so swimmers can adjust workouts in the water rather
+  than after the session. The company sells the device through a Shopify storefront
+  and has tested the product with 250+ swimmers across 56 countries. Added to the
+  API Evangelist network as a 500 Global portfolio company; no public developer or
+  API surface has been identified.
 url: https://raw.githubusercontent.com/api-evangelist/instabeat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://instabeat.com/s/files/1/1696/9407/t/29/assets/favicon-16967.png
 tags:
 - Company
+- Wearables
+- Fitness
+- Swimming
+- Heart Rate Monitoring
+- Sports Technology
+- Consumer Hardware
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://instabeat.com
+- type: Blog
+  url: https://instabeat.com/blogs/news/
+- type: Support
+  url: https://instabeat.com/pages/faq-page/
+- type: PrivacyPolicy
+  url: https://instabeat.com/pages/privacy-policy/
+- type: DomainSecurity
+  url: security/instabeat-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
